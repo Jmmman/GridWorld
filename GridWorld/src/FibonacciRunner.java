@@ -32,7 +32,7 @@ public class FibonacciRunner
 
 
 
-        world.add(new Location(0, 0), new BackAndForthFibonacciBug());
+        world.add(new Location(0, 0), new LeftToRightFibonacciBug());
         world.show();
     }
 }
