@@ -16,7 +16,7 @@ setColor(Color.MAGENTA);
 public void process(WorkerAnt ant) {
 
 	foodQuantity+= ant.giveFood();
-	ant.sharQueenLocation();
+	ant.shareQueenLocation(getLocation());
 }
 
 public void act()
